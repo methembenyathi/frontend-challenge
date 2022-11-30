@@ -1,0 +1,141 @@
+@media (max-width: 375px) {
+  * {
+    padding: 0;
+    margin: 0; }
+  .allhead {
+    background: url(../images/bg-hero-mobile.svg);
+    opacity: 2; }
+  .header {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 80px; }
+  .btn1 {
+    float: right; }
+    .btn1 button {
+      background-color: azure;
+      color: #00252e;
+      font-size: 12px;
+      width: 100px;
+      padding: 10px;
+      border-radius: 20px; }
+  .logo img {
+    max-width: 30%; }
+  h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #00252e; }
+  .head p {
+    font-size: 20px;
+    color: #00252e;
+    text-align: center;
+    margin: 10px auto;
+    max-width: 330px; }
+  .btn {
+    margin: 10px auto;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 50px; }
+    .btn button {
+      background-color: #ff52bf;
+      padding: 20px;
+      width: 300px;
+      border-radius: 30px;
+      color: white;
+      font-size: 15px;
+      font-weight: 600; }
+  .head img {
+    max-width: 310px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .section {
+    padding: 10px;
+    background-color: azure;
+    border-radius: 20px; }
+    .section h2 {
+      font-weight: 600;
+      font-size: 30px;
+      text-align: center;
+      margin-bottom: 20px; }
+    .section img {
+      max-width: 300px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 80px; }
+    .section p {
+      color: #808d99;
+      text-align: center; }
+  .allsections {
+    padding: 20px; }
+  .lastpart {
+    padding: 10px;
+    background-color: #00252e; }
+    .lastpart p {
+      color: #808d99; }
+  .listitems a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #808d99; }
+  .listitems li {
+    margin-bottom: 20px; }
+  .logo2 img {
+    max-width: 200px;
+    color: white; }
+  .location, .phone, .email {
+    display: flex; }
+    .location p, .phone p, .email p {
+      padding-left: 20px; }
+  .attribution {
+    text-align: center; } }
+
+@media (max-width: 1440px) {
+  * {
+    padding: 0;
+    margin: 0; }
+  body p {
+    font-size: 20px;
+    padding: 10px; }
+  body h2 {
+    font-size: 25px; }
+  .header {
+    padding: 10px; }
+  .btn1 {
+    float: right; }
+  .head {
+    text-align: center; }
+  .section {
+    text-align: center;
+    margin: 30px;
+    background-color: azure;
+    padding: 10px;
+    border-radius: 20px; }
+  .btn {
+    padding: 40px; }
+    .btn .btn {
+      margin: 10px auto;
+      max-width: 0; }
+    .btn button {
+      padding: 10px;
+      width: 200px;
+      background-color: #ff52bf;
+      border-radius: 20px;
+      border-style: none; }
+  .btn1 button {
+    background-color: azure;
+    border-radius: 20px;
+    border-style: none; }
+  .lastpart {
+    background-color: #00252e; }
+  .location, .phone, .email {
+    display: flex;
+    padding: 10px; }
+    .location img, .phone img, .email img {
+      max-width: 30px;
+      padding: 10px; }
+  .listitems a {
+    color: #808d99;
+    text-decoration: none;
+    padding: 20px; }
+  .listitems li {
+    padding: 10px; } }
