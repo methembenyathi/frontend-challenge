@@ -1,0 +1,233 @@
+@import 'variables';
+ 
+
+// mobile styling 375px
+@media(max-width:375px){
+    *{ padding: 0;
+        margin: 0;
+    }
+     
+    .allhead{
+        background: url(../images/bg-hero-mobile.svg);
+        opacity: 2;
+    }
+    
+    .header{
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 80px;
+        
+    }
+
+    .btn1{
+        float: right;
+    
+        button{
+            background-color: azure;
+            color: $headercolor;
+            font-size: 12px;
+            width: 100px;
+            padding: 10px;
+            border-radius: 20px;
+            
+        }
+    }
+    .logo img{
+        max-width: 30%;
+    }
+    h1{
+        text-align: center;
+        margin-bottom: 40px;
+        color: $headercolor;
+    }
+    .head p{
+        font-size: 20px;
+        color: $headercolor;
+        text-align: center;
+        margin: 10px auto;
+        max-width: 330px;
+    }
+    .btn{
+        margin: 10px auto;
+        max-width: 100%;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    
+     button{
+        background-color: $buttoncolor;
+        padding: 20px;
+        width: 300px;
+        border-radius: 30px;
+        color: white;
+        font-size: 15px;
+        font-weight: 600;
+     }
+    }
+
+ .head img{
+    max-width: 310px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+.section{
+    padding: 10px;
+    background-color: azure;
+    border-radius: 20px;
+    
+    h2{
+        font-weight: 600;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    img{
+        max-width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 80px;
+        
+
+    }
+    p{
+        color: $textcolor;
+        text-align: center;
+    }
+}
+.allsections{
+    padding: 20px;
+}
+.lastpart{
+    padding: 10px;
+    background-color: $headercolor;
+    p{
+        color: $textcolor;
+    }
+    }
+    .listitems{
+     a{
+    text-decoration: none;
+    font-size: 18px;
+    color: $textcolor;
+    }
+    li{
+        margin-bottom: 20px;
+    }
+}
+
+    .logo2 img{
+        max-width: 200px;
+        color: white;
+    }
+%call{
+    p{
+        padding-left: 20px;
+
+    }
+    display: flex;
+}
+ 
+.location{
+    @extend %call ;
+}
+.phone{
+    @extend %call;
+}
+.email{
+    @extend %call;
+}
+.attribution{
+    text-align: center;
+}
+}
+    
+// desktop styling 1440px
+@media(max-width:1440px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        p{
+            font-size: 20px;
+            padding: 10px;
+        }
+        h2{
+            font-size: 25px;
+        }
+    }
+.header{
+padding: 10px;
+}
+.btn1{
+    float: right;
+}
+.head{
+    text-align: center;
+}
+.section{
+    text-align: center;
+    margin: 30px;
+    background-color: azure;
+    padding: 10px;
+    border-radius: 20px;
+}
+%button{
+    padding: 40px;
+    .btn{
+        margin: 10px auto;
+        max-width: 0;
+
+    }
+    button{
+        padding: 10px;
+        width: 200px;
+        background-color: $buttoncolor;
+        border-radius: 20px;
+        border-style: none;
+    }
+}
+.btn{
+    @extend %button;
+}
+.btn1 button{
+ background-color: azure;
+ border-radius: 20px;
+ border-style: none;
+}
+.lastpart{
+    background-color: $headercolor;
+}
+%flex{
+    display: flex;
+    padding: 10px;
+    img{
+        max-width: 30px;
+        padding: 10px
+    }
+    
+}
+.location{
+    @extend %flex;
+
+}
+.phone{
+    @extend %flex;
+}
+.email{
+    @extend %flex;
+}
+
+.listitems {
+    a{
+    color: $textcolor;
+    text-decoration: none;
+    padding: 20px;
+}
+li{
+    padding: 10px;
+}
+}
+}
+    
